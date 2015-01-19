@@ -19,8 +19,7 @@ GO
 	Configuration
 */
 
-
--- Filter data by project name (mandatory)
+-- Filter data by execution id (use NULL for no filter)
 DECLARE @executionIdFilter BIGINT = 20143;
 
 

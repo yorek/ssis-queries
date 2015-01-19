@@ -10,11 +10,21 @@
 	Version:	1.0
 
 */
-
 USE SSISDB
 GO
 
+/*
+	Configuration
+*/
+
+-- Filter data by execution id (use NULL for no filter)
 DECLARE @operation_id AS bigint = 1234;
+
+
+
+/*
+	Implementation
+*/
 
 WITH 
 ctePRE AS 

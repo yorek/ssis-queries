@@ -13,11 +13,21 @@
 USE SSISDB
 GO
 
--- Filter data by project name (mandatory)
+/*
+	Configuration
+*/
+
+-- Filter data by execution id (use NULL for no filter)
 DECLARE @executionIdFilter BIGINT = 20143;
 
 -- Show Only Child Packages or everyhing
 DECLARE @showOnlyChildPackages BIT = 1;
+
+
+
+/*
+	Implementation
+*/
 
 /*
 	Log Info

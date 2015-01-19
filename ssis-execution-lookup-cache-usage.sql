@@ -10,18 +10,19 @@
 	Version:	1.0
 
 */
-USE [SSISDB]
+USE SSISDB
 GO
-
 
 /*
 	Configuration
 */
--- Filter data by project name (use NULL for no filter)
+
+-- Filter data by execution id (use NULL for no filter)
 DECLARE @executionIdFilter BIGINT = 20143
 
--- Filter data by project name (use % for no filter)
+-- Filter data by package name (use % for no filter)
 DECLARE @packageNamePattern NVARCHAR(100) = '%%'
+
 
 
 /*

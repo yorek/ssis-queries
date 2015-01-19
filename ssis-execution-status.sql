@@ -25,10 +25,10 @@ GO
 -- Filter data by project name (use % for no filter)
 DECLARE @projectNamePattern NVARCHAR(100) = '%'
 
--- Filter data by project name (use % for no filter)
+-- Filter data by package name (use % for no filter)
 DECLARE @packageNamePattern NVARCHAR(100) = '%'
 
--- Filter data by execution id(use NULL for no filter)
+-- Filter data by execution id (use NULL for no filter)
 DECLARE @executionIdFilter BIGINT = NULL
 
 

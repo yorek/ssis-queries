@@ -17,9 +17,8 @@ GO
 	Configuration
 */
 
-
 -- Filter data by message source name (use % for no filter)
-DECLARE @sourceNameFilter AS nvarchar(max) = '%Master%';
+DECLARE @sourceNameFilter AS nvarchar(max) = '%%';
 
 
 
