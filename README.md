@@ -30,3 +30,7 @@ Available scripts:
 ###v 1.0 
 
 * First release 
+
+###v 1.1
+
+* Improved & fixed the "ssis-execution-log" query
