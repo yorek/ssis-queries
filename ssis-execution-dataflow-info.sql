@@ -51,7 +51,7 @@ SELECT
 FROM
 	ctePRE b
 LEFT OUTER JOIN
-	ctePOST e ON b.operation_id = e.operation_id AND b.package_name = e.package_name AND b.message_source_id = e.message_source_id
+	ctePOST e ON b.operation_id = e.operation_id AND b.package_name = e.package_name AND b.message_source_id = e.message_source_id AND b.event_message_id=e.event_message_id
 WHERE
 	b.operation_id = @executionIdFilter
 AND
