@@ -24,6 +24,7 @@ Available scripts:
 * **ssis-execution-log**: Information/Warning/Error messages found in the log for a specific execution
 * **ssis-execution-lookup-cache-usage**: Lookup usage for a specific package/execution
 * **ssis-execution-package-history**: Execution historical data 
+* **ssis-execution-parameter-values**: Show execution parameter values
 
 ##Version History
 
@@ -34,3 +35,9 @@ Available scripts:
 ###v 1.1
 
 * Improved & fixed the "ssis-execution-log" query
+ 
+###v 1.2
+
+* Added "ssis-execution-parameter-values" query
+
+
