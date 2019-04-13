@@ -39,5 +39,9 @@ Available scripts:
 ###v 1.2
 
 * Added "ssis-execution-parameter-values" query
+ 
+###v 1.3
+
+* Fixed null values in "ssis-execution-dataflow-info" query due to invalid CTE join on Message ID, added "duration_minutes" column alias
 
 

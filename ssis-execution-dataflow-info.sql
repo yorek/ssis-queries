@@ -47,11 +47,11 @@ SELECT
 	b.message_source_name,
 	pre_message_time = b.message_time,
 	post_message_time = e.message_time,
-	DATEDIFF(mi, b.message_time, e.message_time)
+	duration_minutes = DATEDIFF(mi, b.message_time, e.message_time)
 FROM
 	ctePRE b
 LEFT OUTER JOIN
-	ctePOST e ON b.operation_id = e.operation_id AND b.package_name = e.package_name AND b.message_source_id = e.message_source_id AND b.event_message_id=e.event_message_id
+	ctePOST e ON b.operation_id = e.operation_id AND b.package_name = e.package_name AND b.message_source_id = e.message_source_id
 WHERE
 	b.operation_id = @executionIdFilter
 AND
