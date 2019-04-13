@@ -14,7 +14,7 @@ The purpose of this project is to provide a set of queries to easily extract dat
 
 The provided queries are also used in the [ssis-dashboard](https://github.com/yorek/ssis-dashboard) project.
  
-##Release Notes
+## Release Notes
 
 Available scripts:
 
@@ -26,21 +26,21 @@ Available scripts:
 * **ssis-execution-package-history**: Execution historical data 
 * **ssis-execution-parameter-values**: Show execution parameter values
 
-##Version History
+## Version History
 
-###v 1.0 
+### v 1.0 
 
 * First release 
 
-###v 1.1
+### v 1.1
 
 * Improved & fixed the "ssis-execution-log" query
  
-###v 1.2
+### v 1.2
 
 * Added "ssis-execution-parameter-values" query
  
-###v 1.3
+### v 1.3
 
 * Fixed null values in "ssis-execution-dataflow-info" query due to invalid CTE join on Message ID, added "duration_minutes" column alias
 
